@@ -1,0 +1,27 @@
+{
+  "name": "crewsync-engine",
+  "version": "1.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "engines": {
+    "node": ">=21.0.0"
+  },
+  "scripts": {
+    "lint": "eslint src/**/*",
+    "deploy": "forge deploy",
+    "install": "forge install"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0"
+  },
+  "dependencies": {
+    "@forge/api": "^6.4.2",
+    "@forge/bridge": "^5.10.1",
+    "@forge/react": "^11.9.0",
+    "@forge/resolver": "^1.7.1",
+    "react": "^18.2.0"
+  }
+}

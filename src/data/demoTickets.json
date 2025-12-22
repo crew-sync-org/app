@@ -1,0 +1,122 @@
+[
+  {
+    "key": "MKT-10",
+    "summary": "Users reporting app crash on login screen after update",
+    "description": "Multiple customer reports via App Store and social channels indicate the app crashes immediately upon tapping 'Sign in' after the latest release.",
+    "status": "Open",
+    "project": { "key": "MKT", "name": "Marketing" },
+    "labels": ["bug", "mobile", "authentication", "critical", "user-reported", "customer-facing"]
+  },
+  {
+    "key": "ENG-22",
+    "summary": "iOS NullPointerException in AuthController during sign-in",
+    "description": "Crash logs from Sentry show a NullPointerException in AuthController.handleSignIn() on iOS 17 devices. Reproducible when biometric auth is enabled.",
+    "status": "Open",
+    "project": { "key": "ENG", "name": "Engineering" },
+    "labels": ["bug", "ios", "authentication", "crash", "biometric", "high-priority"]
+  },
+  {
+    "key": "PROD-05",
+    "summary": "Dashboard loading is extremely slow for enterprise users",
+    "description": "Enterprise customers report 8–12 second load times on the dashboard during peak hours. Suspected bottleneck in aggregated analytics queries.",
+    "status": "Open",
+    "project": { "key": "PROD", "name": "Product" },
+    "labels": ["performance", "enterprise", "dashboard", "backend", "high-priority"]
+  },
+  {
+    "key": "ENG-23",
+    "summary": "Optimize DB query performance for /dashboard endpoint",
+    "description": "Investigate N+1 queries and missing indexes used by the /dashboard endpoint. Add query plan analysis and implement caching where appropriate.",
+    "status": "In Progress",
+    "project": { "key": "ENG", "name": "Engineering" },
+    "labels": ["performance", "database", "optimization", "backend", "caching"]
+  },
+  {
+    "key": "PROD-08",
+    "summary": "Add Dark Mode support to mobile app",
+    "description": "Customers frequently request Dark Mode across the mobile experience. Define UX patterns and acceptance criteria for a system-level theme toggle.",
+    "status": "Open",
+    "project": { "key": "PROD", "name": "Product" },
+    "labels": ["feature-request", "mobile", "ui-ux", "dark-mode", "accessibility"]
+  },
+  {
+    "key": "ENG-24",
+    "summary": "Implement Dark Mode UI theme",
+    "description": "Introduce theme tokens and update components to support Dark Mode. Ensure accessible color contrast ratios (WCAG AA).",
+    "status": "In Progress",
+    "project": { "key": "ENG", "name": "Engineering" },
+    "labels": ["feature", "ui", "dark-mode", "accessibility", "frontend", "wcag"]
+  },
+  {
+    "key": "MKT-11",
+    "summary": "Q1 campaign brief for enterprise segment",
+    "description": "Develop campaign positioning, target personas, and key messaging for the Q1 enterprise pipeline acceleration campaign.",
+    "status": "Open",
+    "project": { "key": "MKT", "name": "Marketing" },
+    "labels": ["campaign", "enterprise", "q1-2026", "planning", "content", "messaging"]
+  },
+  {
+    "key": "MKT-12",
+    "summary": "Revamp product landing page SEO",
+    "description": "Audit keyword gaps, update meta tags, improve internal linking, and add schema markup to increase organic traffic.",
+    "status": "In Progress",
+    "project": { "key": "MKT", "name": "Marketing" },
+    "labels": ["seo", "website", "optimization", "organic-growth", "content", "technical-seo"]
+  },
+  {
+    "key": "MKT-13",
+    "summary": "Customer case study: FinTech Co.",
+    "description": "Coordinate with Customer Success to produce a case study highlighting 35% reduction in onboarding time.",
+    "status": "Open",
+    "project": { "key": "MKT", "name": "Marketing" },
+    "labels": ["case-study", "fintech", "customer-success", "content", "social-proof"]
+  },
+  {
+    "key": "MKT-14",
+    "summary": "Update brand guidelines for social media",
+    "description": "Define new templates for short-form video, carousel posts, and announcement graphics with updated color palette.",
+    "status": "Done",
+    "project": { "key": "MKT", "name": "Marketing" },
+    "labels": ["brand", "social-media", "design", "templates", "video", "completed"]
+  },
+  {
+    "key": "ENG-25",
+    "summary": "Add integration tests for auth flows",
+    "description": "Create end-to-end tests covering email/password, SSO (SAML/OIDC), and biometric login with mocked IdP responses.",
+    "status": "Open",
+    "project": { "key": "ENG", "name": "Engineering" },
+    "labels": ["testing", "authentication", "e2e", "automation", "sso", "quality-assurance"]
+  },
+  {
+    "key": "ENG-26",
+    "summary": "Improve mobile crash reporting fidelity",
+    "description": "Add symbolication for iOS and Proguard mapping upload for Android to improve stack trace readability in Sentry.",
+    "status": "Backlog",
+    "project": { "key": "ENG", "name": "Engineering" },
+    "labels": ["monitoring", "mobile", "devops", "observability", "android", "ios", "sentry"]
+  },
+  {
+    "key": "PROD-06",
+    "summary": "Define success metrics for onboarding redesign",
+    "description": "Partner with Data to define activation rate, TTFV, and week-4 retention as primary KPIs for onboarding changes.",
+    "status": "Open",
+    "project": { "key": "PROD", "name": "Product" },
+    "labels": ["analytics", "onboarding", "kpi", "metrics", "data-driven", "retention"]
+  },
+  {
+    "key": "PROD-07",
+    "summary": "Prioritize Q2 roadmap candidates",
+    "description": "Score potential initiatives using RICE and align with GTM on launch dependencies.",
+    "status": "In Progress",
+    "project": { "key": "PROD", "name": "Product" },
+    "labels": ["roadmap", "planning", "q2-2026", "prioritization", "rice-framework", "gtm"]
+  },
+  {
+    "key": "PROD-09",
+    "summary": "Deprecate legacy webhooks v1",
+    "description": "Create migration plan to v2 webhooks, communicate timeline to customers, and provide API compatibility layer.",
+    "status": "Open",
+    "project": { "key": "PROD", "name": "Product" },
+    "labels": ["api", "migration", "deprecation", "breaking-change", "webhooks", "backward-compatibility"]
+  }
+]
