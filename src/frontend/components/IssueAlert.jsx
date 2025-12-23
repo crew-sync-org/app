@@ -143,7 +143,7 @@ export default function IssueAlert({ context }) {
       });
 
       // Reload to reflect status change
-      setTimeout(() => window.location.reload(), 1500);
+      setTimeout(() => router.reload(), 1500);
 
     } catch (err) {
       console.error('Error resolving duplicate:', err);

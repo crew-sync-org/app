@@ -207,7 +207,15 @@ export default function Config({ context, onBack }) {
                                 These issues contain similar content to test the Duplicate Detection engine.
                                 You can now click on <Strong>start sync</Strong> with current project as the settings to scan these issues for duplicates.
                             </Text>
+                            <SectionMessage appearance="warning">
+                <Text>
+                    <Strong>Please Wait 3 Minutes:</Strong> Jira takes a few minutes to index new data. 
+                    If you run the scanner immediately, it will return 0 results. 
+                    Please grab a coffee ☕ and run the scan in a few minutes.
+                </Text>
+            </SectionMessage>
                         </SectionMessage>
+                        
                     )}
                 </Stack>
             </SectionMessage>

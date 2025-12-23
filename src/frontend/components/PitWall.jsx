@@ -421,9 +421,9 @@ export default function PitWall({ context, onSettings }) {
             <Text style={{ fontSize: '48px' }}>✅</Text>
             <Heading size="medium">Clean Backlog!</Heading>
             <Text>
-              Great news! No duplicates found in the scanned tickets.
-              Your backlog is well-organized and duplicate-free.
-            </Text>
+      Your backlog appears clean! However, if you <Strong>just created</Strong> these tickets (within the last 5 minutes), 
+      Jira may still be indexing them.
+    </Text>
             <Text appearance="subtle">
               Scanned {scanStats.total} ticket{scanStats.total !== 1 ? 's' : ''}
             </Text>
